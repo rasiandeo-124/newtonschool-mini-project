@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery Services|MyOnlineMeal.com</title>
+  
+ 
+</head>
+
+<style>
+    /* /css reset/ */
+
+    body{
+     color: white;
+    margin: 0px;
+    padding: 0%;
+    /* background: url("image/spaghetti-1932466_960_720.jpg") no-repeat center center/cover; */
+
+}
+.header{
+    background: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png") no-repeat center center/cover;
+    width: 100%;
+    height: 500px;
+}
+.left{
+    display: inline-block;
+    position:absolute;
+    left:34px;
+    top:20px;
+
+}
+.left img{
+     width: 60px;
+}
+.left div{
+    text-align: center;
+}
+.mid{
+ 
+    display: block;
+    width: 33%;
+    margin-left:80px;
+    padding-top:12px;
+}
+.right{
+    display: inline-block;
+    position:absolute;
+    right:34px;
+    top:20px;
+}
+.navbar {
+    display: inline-block;
+
+}
+
+.navbar li{
+    display:inline-block;
+    font-size: 18px;
+   
+}
+.navbar li a{
+ 
+    text-decoration: none;
+    padding: 11px;
+}
+.navbar li:hover{
+    color:black;
+    text-decoration: underline;
+    }
+    .btn{
+        margin: 0px 9px;
+        background-color:black;
+        color:white;
+        padding:4px 14px;
+        border:2px solid  grey;
+        border-radius:10px;
+        font-size:12px ;
+        cursor:pointer;
+    }
+    .btn:hover{
+        background-color: rgb(29, 28, 28);
+    }
+    #home {
+        display: flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items: center;
+        color: white;
+        margin-top: 10px;
+        padding: 10px;
+             
+    }
+    .h-primary{
+        color: white;
+        font-size: 50px;
+    }
+    .button{
+        background-color: black;
+        color: white;
+        border: radius 10px; 
+        padding:6px 20px ;
+        cursor: pointer;
+    }
+    .button:hover{
+        background-color: rgb(19, 18, 18);
+    }
+   #container{
+       text-align: center;
+       padding-top:6px;
+   }
+   .services h1{
+       text-align:center;
+       color: black;
+       margin-top: 50px;
+   }
+   .services-container{
+       width: 80%;
+       margin: auto;
+       display: flex;
+       justify-content: space-around;
+
+   }
+   @media only screen and (max-width: 600px) {
+       .services-container{
+           flex-direction: column;
+
+       }
+   }
+   .services-child-card{
+       width: 30%;
+       margin: auto;
+       border-radius: 20px;
+       background-color: #f5f0f0;
+
+   }
+   @media only screen and (max-width: 600px) {
+       .services-child-card{
+           width: 100%;
+           margin-top: 20px;
+       }
+   }
+   .services-child-card img{
+       width: 100%;
+       border-radius: 20px 20px 0px 0px;
+   }
+   .services-child-card h2{
+       color: black;
+       text-align: center;
+   }
+   .footer{
+    
+    
+    margin-top:32px;
+    height: 65px;
+    width: 100%;
+    text-align:center;
+    background-color:black;
+    color:white;
+  
+     
+   }
+   footer{
+    background: black;
+    color: white;
+    padding: 9px 20px;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 20px;
+}
+th {
+   color: dimgrey;
+}
+  footer img{
+     position:absolute;
+     padding-top: 80px;
+     padding-left: 800px;
+  }
+
+
+
+</style>
+<body>
+    <header class="header">
+
+   <div class ="left">
+    <img src="https://image.similarpng.com/very-thumbnail/2021/09/Female-Chef-Logo-template-on-transparent-background-PNG.png" alt="">
+    
+       </div>
+
+       <div class="mid">
+        <ul class="navbar">
+            <li class="item"><a href="#"class="active"></a>Home</li>
+            <li class="item"><a href="#"></a>Services</li>
+            <li class="item"><a herf="#"></a>About Us</li>
+            <li class="item"><a href="#"></a>Contact Us</li>
+          
+        </ul>
+        
+    
+
+       </div>
+       <div class="right">
+       <button class="btn"> Call us Now </button>
+       <button class="btn">Email Us</button>
+       </div>
+       
+       <div class="container">
+
+       </div>
+       <div id="home">
+        <h1 class="h-primary"><b>THE SPICE DELIGHT</b></h1>
+        <h3>Enjoy 50% OFF & Free Delivery</h2>
+     
+        <button class="button">Order Now</button>
+        </div>
+    </header>
+          <div class="services">
+              <h1>Services</h1>
+              <div class="services-container">
+                <div class="services-child-card">
+                    <img src="https://b.zmtcdn.com/webFrontend/e5b8785c257af2a7f354f1addaf37e4e1647364814.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*" alt="">
+                    <h2>Order Online</h2>
+                </div>
+                <div class="services-child-card">
+                    <img src="https://b.zmtcdn.com/webFrontend/d026b357feb0d63c997549f6398da8cc1647364915.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*" alt="">
+                    <h2>Dining Out</h2>
+                </div>
+                <div class="services-child-card">
+                    <img src="https://b.zmtcdn.com/webFrontend/7c5da5fa471e5e5f26745709f60498a71647365004.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*" alt="">
+                    <h2>Pro and Pro Plus</h2>
+                </div>
+            </div>
+          </div>
+    <footer > 
+            
+        THE SPCICE DELIGHT
+            <table>
+                <thead>
+                <tr>
+            <th> COMPANY </th>
+             <th> CONTACT</th>
+             <th>LEGAL</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+
+  
+               <td> About us</td> 
+                <td>Team</td>
+               <td>Careers</td>
+             
+                
+            </tr>
+            <tr>
+                <td>Help & Support</td>
+                <td>Partner with us</td>
+               <td> Phishing & Fraud</td>
+
+               </tr>
+
+               <tr>
+               <td> Terms & Conditions</td>
+               <td>  Cookie Policy </td>
+               <td>  Offer Terms</td>
+              
+               </tr>
+                 
+               <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_200,h_65/icon-AppStore_lg30tv">
+               
+             
+            
+            </tbody>
+        </table>
+     
+    </footer>
+</body>
+
+</html>
